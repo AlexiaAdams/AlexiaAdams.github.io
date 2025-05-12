@@ -88,17 +88,17 @@ $("#it-bar").click(function () {
   }
 })
 
-//Project Engineer
-$("#pe-bar").click(function () {
-  if ($("#pe-content").hasClass("hidden")) {
-    $("#pe-content").removeClass("hidden");
-    $("#pe-plus").addClass("hidden");
-    $("#pe-minus").removeClass("hidden");
-    $("#pe-bar").addClass("acc-select");
+//Associate Data Engineer
+$("#ade-bar").click(function () {
+  if ($("#ade-content").hasClass("hidden")) {
+    $("#ade-content").removeClass("hidden");
+    $("#ade-plus").addClass("hidden");
+    $("#ade-minus").removeClass("hidden");
+    $("#ade-bar").addClass("acc-select");
   } else {
-    $("#pe-content").addClass("hidden");
-    $("#pe-plus").removeClass("hidden");
-    $("#pe-minus").addClass("hidden");
-    $("#pe-bar").removeClass("acc-select");
+    $("#ade-content").addClass("hidden");
+    $("#ade-plus").removeClass("hidden");
+    $("#ade-minus").addClass("hidden");
+    $("#ade-bar").removeClass("acc-select");
   }
 })

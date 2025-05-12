@@ -484,7 +484,11 @@ div#buttons a:hover {
 
 hr.solid {
   border-top: 3px solid #0099ff;
-  width: 80%
+  width: 80%;
+}
+
+hr#header-line {
+  margin-bottom: 0
 }
 
 hr.dashed {
@@ -564,7 +568,7 @@ hr.dashed {
     display: flex;
     flex-direction: row;
     gap: 10%;
-    margin-bottom: 8%;
+    margin-bottom: 5%;
     margin-left: 5%;
     margin-right: 5%;
   }

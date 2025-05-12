@@ -52,7 +52,7 @@
         <li><a href="files/AlexiaAdams2025.pdf" target="_blank">Resume</a></li>
       </ul>
     </nav>
-    <hr class="solid">
+    <hr id="header-line" class="solid">
   </div>
 
   <main>
@@ -75,10 +75,10 @@
                 target="_blank">The
                 Hartford</a></strong> as an <strong class="study">Associate Data
               Engineer</strong>! In addition, I will be pursuing a <strong class="study">Masters in Analytics</strong>
-            from <strong class="locale"><a href="https://www.gatech.edu/">Georgia Tech</a></strong>!
+            from <strong class="locale"><a href="https://www.gatech.edu/" target="_blank">Georgia Tech</a></strong>!
           </p>
           <p>
-            As a first-generation college student coming from a rural town with limited opportunities, I strive to make
+            As a first-generation college student coming from a rural town, I strive to make
             technology and knowledge accessible to
             everyone, everywhere.
           </p>
@@ -106,17 +106,16 @@
       <h2>About</h2>
 
       <div id="activities"><span class="dot"></span>
-        I first began coding 4 years ago in my last semester of high school and, since then, I've been honing my
+        I first began coding in 2021 and, since then, I've been honing my
         technical prowess through internships, work experience, and projects. From software development to data science,
         I want to apply my knowledge to help organizations with good social impact grow.
       </div>
 
       <div id="hobbies"><span class="dot"></span>
-        Technology has virtually ingrained itself into our culture and daily functions. As we continue to feed our
-        algorithms data, we are endangered of confining individuals with particular traits into boxes that are difficult
-        to escape from. There are proper ways to employ algorithms, yet we see incessantly how they are used to instill
-        pain, suffering, and annoyance. I want to be one of the leaders who ethically utilize prior and emerging
-        technologies for the betterment of local and global communities.
+        Technology has virtually ingrained itself into our culture and daily functions. Algorithms and artificial
+        intelligence have the potential to enhance society but are continuously used to harm the world, from stealing
+        people's work to discrimination to environmental exploitation. I want to be a leader who ethically utilizes
+        prior and emerging technologies for the betterment of local and global communities.
       </div>
 
       <div id="interests"><span class="dot"></span>
@@ -128,6 +127,30 @@
 
     <div id="prof">
       <h2>Professional Experiences</h2>
+
+      <!-- Associate Data Engineer -->
+      <div id="ade-bar" class="accord">
+        <!-- Image of The Hartford -->
+        <picture>
+          <img class="logo" src="images/the_hartford_logo.jpeg">
+        </picture>
+        <h4>Associate Data Engineer - The Hartford <em>(Starting June 2025)</em></h4>
+        <!-- Plus/Minus Sign -->
+        <div id="ade-plus" class="plus">&#43;</div>
+        <div id="ade-minus" class="minus hidden">&#45;</div>
+      </div>
+
+      <div id="ade-content" class="hidden content">
+        <div>
+          <a href="https://www.thehartford.com/" target="_blank">The Hartford</a> in Hartford, CT
+        </div>
+        <ul>
+          <li>Coming Soon</li>
+        </ul>
+        <p>
+          Coming Soon
+        </p>
+      </div>
 
       <!-- Research Assistant -->
       <div id="ra-bar" class="accord">
@@ -192,7 +215,7 @@
       <div id="dei-bar" class="accord">
         <!-- Image of The Hartford -->
         <picture>
-          <img class="logo" src="images/thehartford.png">
+          <img class="logo" src="images/the_hartford_logo.jpeg">
         </picture>
         <h4>Data Engineering Intern - The Hartford <em>(May 2024 to August 2024)</em></h4>
         <!-- Plus/Minus Sign -->
@@ -301,31 +324,6 @@
           During this internship, I learned how to support an engineering organization with their technology; I fixed
           hardware issues and helped set up users with software. This experience taught my valuable technical
           communication skills.
-        </p>
-      </div>
-
-      <!-- Project Engineer Intern -->
-      <div id="pe-bar" class="accord">
-        <picture>
-          <img class="logo" src="images/VMS_Logo.png" alt="Logo of VMS Construction Company">
-        </picture>
-        <h4>Project Engineer Intern - VMS Construction Company <em>(June 2022 to July 2022)</em></h4>
-        <!-- Plus/Minus Sign -->
-        <div id="pe-plus" class="plus">&#43;</div>
-        <div id="pe-minus" class="minus hidden">&#45;</div>
-      </div>
-
-      <div id="pe-content" class="hidden content">
-        <div>
-          <a href="" target="_blank">VMS Construction</a> in Vernon, CT
-        </div>
-        <ul>
-          <li>Tracked project quantities and costs utilizing Microsoft Excel and performed administrative tasks</li>
-          <li>Estimated costs by measuring construction plans and sketched water service as-builts</li>
-        </ul>
-        <p>
-          During this internship, I learned about the intricacies of water main construction. I read and analyzed
-          blueprints using BlueBeam to create cost estimates for future project bidding.
         </p>
       </div>
 
@@ -450,8 +448,43 @@
       </div>
       <hr class="dashed">
 
+      <!-- Language Diversity -->
+      <div id="ld" class="row">
+        <div class="proj-desc">
+          <h3><span class="dot"></span>
+            <a href="https://language-diversity.onrender.com/" target="_blank">Language Diversity in the US</a>
+          </h3>
+          <div>
+            <p>
+              A website showcasing the numerous languages spoken across the states.
+            </p>
+            <p>
+              By utilizing data from the US Census Bureau, the goal of the website is to highlight the diverse languages
+              spoken in various states. Users will learn about the most common languages in the US and in each state,
+              and see how
+              languages are distributed nationally.
+            </p>
+            <p>
+              Course: Interactive Information Visualizations (INFO 4310)
+            </p>
+          </div>
+          <!-- Skill Tags -->
+          <ul class="skills">
+            <li class="html">HTML</li>
+            <li class="css">CSS</li>
+            <li class="js">JavaScript</li>
+          </ul>
+        </div>
+        <!-- Image of Project -->
+        <picture class="small">
+          <img src="images/langdiv.png" alt="Graph displaying the New York's language makeup.">
+        </picture>
+
+      </div>
+      <hr class="dashed">
+
       <!-- Education x Funds -->
-      <div id="ahdc" class="row">
+      <div id="edx" class="row rev">
         <div class="proj-desc">
           <h3><span class="dot"></span>
             <a href="https://edxfunds.onrender.com/" target="_blank">Educational Funding vs Academic Performance</a>
@@ -487,7 +520,7 @@
       <hr class="dashed">
 
       <!-- Business Intelligence -->
-      <div id="ahdc" class="row rev">
+      <div id="ahdc" class="row">
         <div class="proj-desc">
           <h3><span class="dot"></span>
             <a href="https://cornell.digication.com/iman-kiio-info-4555-combined-comeet-business-intelligence-systems-2024fa/home"
@@ -526,7 +559,7 @@
       <hr class="dashed">
 
       <!-- Japanese at Cornell -->
-      <div id="jap" class="row">
+      <div id="jap" class="row rev">
         <div class="proj-desc">
           <h3><span class="dot"></span> Japanese at Cornell</h3>
           <div>
@@ -574,171 +607,8 @@
       </div>
       <hr class="dashed">
 
-      <!-- Designing Fair Algorithms -->
-      <div id="rhes" class="row rev">
-        <div class="proj-desc">
-          <h3><span class="dot"></span> Race and Higher Education Selectivity </h3>
-          <div>
-            <p>
-              An analysis on the relationship between race and college selectivity.
-            </p>
-            <p>
-              As a team of three, our goal was to analyze how a specific domain and sensitive features would be
-              affected by machine learning algorithms. We focused on higher education and performed literature reviews
-              on related academic papers. We researched how the racial makeup of a college could indicate its
-              selectivity.
-            </p>
-            <p>
-              We collected and cleaned the data using Python and conducted explorations of the data. We mainly focused
-              on the college representation by racial group. In this case, college representation is the percentage of
-              individuals of a certain racial group minus the percentage of geographically local individuals of the
-              racial group.
-            </p>
-            <p>
-              We developed 3 logistic regression models using a train/test split to see how race as an input predicts
-              the
-              selectivity of a college (our outcome
-              variable): No Race, POC Lumped (percentages of people of color combined together), and POC Granular
-              (percentages of people of color listed separately).
-            </p>
-            <p>
-              We determined that the POC Granular model performed the best for more selective colleges, with an accuracy
-              of 0.810 and an AUC score of 0.829. Our POC Granular model also performs the best for non selective
-              colleges. However, our POC Granular model underperforms on selective colleges compared to the other
-              models.
-            </p>
-            <p>
-              Course: Practical Principles for Designing Fair Algorithms (INFO 4390)
-            </p>
-          </div>
-          <!-- Skill Tags -->
-          <ul class="skills">
-            <li class="python">Python</li>
-          </ul>
-        </div>
-        <!-- Image of Project -->
-        <picture class="small">
-          <img src="images/collegerepresent.png" alt="Graph displaying college representation by race and selectivity.">
-        </picture>
+    </div>
 
-      </div>
-      <hr class="dashed">
-
-      <!-- Games, Consoles, and Social Interaction -->
-      <div id="ggs" class="row">
-        <div class="proj-desc">
-
-          <h3><span class="dot"></span> <a
-              href="https://pages.github.coecis.cornell.edu/info2950-s23/project-brilliant-evee/" target="_blank">Games,
-              Consoles, and Social Interaction</a></h3>
-          <div>
-            <p>
-              An analysis on the top 800 video games of all time on Metacritic.
-            </p>
-            <p>
-              As a team of five, we explored the relation between consoles and the number of players with the user
-              scores and critic scores. To obtain the data, we developed scraping script using R to extract data from
-              multiple web pages. After cleaning
-              the data, we were able to create exploratory visualizations.
-            </p>
-            <p>
-              We created a logistic regression model to determine the probability of a game
-              being multiplayer based on the user and critic scores. Additionally, we conducted a hypothesis test to
-              determine if the Nintendo 64 console had significantly higher scores than all other consoles.We presented
-              our findings to 20 colleagues.
-            </p>
-            <p>
-              Course: Intro to Data Science (INFO 2950)
-            </p>
-          </div>
-          <!-- Skill Tags -->
-          <ul class="skills">
-            <li class="r">R</li>
-          </ul>
-        </div>
-        <!-- Image of Project -->
-        <picture class="small">
-          <img src="images/pred-prob-diff-score-1.png"
-            alt="Graph displaying the probability of a multiplayer games based on scores.">
-        </picture>
-      </div>
-      <hr class="dashed">
-
-
-      <!-- QuadLink -->
-      <div id="ql" class="row rev">
-        <div class="proj-desc">
-          <h3><span class="dot"></span> QuadLink</h3>
-          <div>
-            <p>
-              A two-player game inspired by Connect 4 with 5 unique game modes: Classic, Gravity Shift, Snap Crackle
-              Pop, That's A Wrap, and Custom.
-            </p>
-            <p>
-              As a team of three, we created a game by utilizing the functional programming language OCaml. We created
-              modules to store our game mechanics and board, using linear algebra to implement some of the more unique
-              game modes. We performed gameplay testing with random students to refine our game. We achieved 99% code
-              coverage and maintained detailed documentation in the code.
-            </p>
-            <p>
-              The game mode Classic allows you to play a typical game of Connect 4. The mode Gravity Shift allows a
-              player to move the location of all tokens to the direction they choose. The mode Snap Crackle Pop allows a
-              player to remove any piece on the board. The mode That's A Wrap causes the board to wrap around every few
-              turns. The mode Custom allows players to play Classic on a board size of their choosing.
-            </p>
-            <p>
-              Course: Data Structures and Functional Programming (CS 3110)
-            </p>
-          </div>
-          <!-- Skill Tags -->
-          <ul class="skills">
-            <li class="ocaml">OCaml</li>
-          </ul>
-        </div>
-        <!-- Image of Project -->
-        <div>
-          <video controls loop class="small">
-            <source src="files/quadlink-game.mov" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      </div>
-      <hr class="dashed">
-
-
-      <!-- Study With Me -->
-      <div id="swm" class="row">
-        <div class="proj-desc">
-          <h3><span class="dot"></span> Study With Me</h3>
-          <div>
-            <p>
-              A prototype iOS application to find and connect with classmates.
-            </p>
-            <p>
-              As a team of five, we combined our expertise in frontend development, backend development, and app design
-              to create an iOS app. We formulated the idea we wanted to develop: an app that helps students connect with
-              others in their class.
-            </p>
-            <p>
-              Our app has the user create a profile, describing their study habits and personality. The user has the
-              ability to search for their classes for the semester and add them to My Courses. Once they have added the
-              courses, they would be able to see others in this class and send invites to them to start working
-              together.
-            </p>
-            <p>
-              Course: Intro to iOS Development (CS 1998)
-            </p>
-          </div>
-          <!-- Skill Tags -->
-          <ul class="skills">
-            <li class="swift">Swift</li>
-          </ul>
-        </div>
-        <!-- Image of Project -->
-        <picture class="small-height">
-          <img src="images/studywithme.png" alt="Search view controller displaying courses to add.">
-        </picture>
-      </div>
 
     </div>
 
@@ -748,12 +618,40 @@
       <h2>Academics</h2>
 
       <div>
+        <h3><span class="dot"></span> Georgia Institute of Technology</h3>
+        <div>
+          <p>Masters of Science in Analytics | Atlanta GA | In Progress</p>
+
+        </div>
+      </div>
+
+      <div>
         <h3><span class="dot"></span> Cornell University</h3>
         <div>
           <p>Bachelor of Science in Computer Science | Ithaca NY | 2025</p>
           <p>Minors in Data Science and Information Science (Information Ethics, Law, Policy)</p>
 
           <div class="row school">
+            <div>
+              <p>
+                <strong><span class="dot-v2"></span> Courses</strong>
+              <ul>
+                <li>Interactive Information Visualizations</li>
+                <li>Natural Language Processing</li>
+                <li>Product Management</li>
+                <li>Business Intelligence Systems</li>
+                <li>Machine Learning</li>
+                <li>Practical Principles for Designing Fair Algorithms</li>
+                <li>Choices and Consequences in Computing</li>
+                <li>Data-Driven Web Applications</li>
+                <li>Learning Analytics</li>
+                <li>Language and Information</li>
+              </ul>
+
+              </p>
+
+            </div>
+
             <div>
               <p>
                 <strong><span class="dot-v2"></span> Activities</strong>
@@ -766,8 +664,6 @@
                 <li>Responsible AI Network</li>
               </ul>
               </p>
-            </div>
-            <div>
               <p>
                 <strong><span class="dot-v2"></span> Awards</strong>
               <ul>
@@ -775,47 +671,13 @@
                 <li>Information Science Department Honorable Mention — 2024</li>
               </ul>
               </p>
+
             </div>
+
           </div>
         </div>
       </div>
 
-      <div>
-        <h3><span class="dot"></span> Woodstock Academy</h3>
-        <div>
-          <p>
-            High School Diploma | Woodstock CT | 2021
-          </p>
-          <div class="row school">
-            <div>
-              <p>
-                <strong><span class="dot-v2"></span> Activities</strong>
-              <ul>
-                <li>Field Hockey</li>
-                <li>EarthSave (Executive Member)</li>
-                <li>Science National Honor Society (Public Relations Officer)</li>
-                <li>Women's Leadership</li>
-              </ul>
-              </p>
-            </div>
-            <div>
-              <p>
-                <strong><span class="dot-v2"></span> Awards</strong>
-              <ul>
-                <li>High Honor Roll — All Semesters</li>
-                <li>Outstanding Achievement in AP Computer Science — 2021</li>
-                <li>Outstanding Achievement in ECE Statistics — 2021</li>
-                <li>Outstanding Achievement in AP Statistics — 2021</li>
-                <li>Head of School's Recognition — 2020, 2021</li>
-                <li>National Rural and Small Town Recognition Scholar — 2020</li>
-                <li>AP Scholar with Distinction — 2020</li>
-                <li>ECC Scholar-Athlete for Field Hockey — 2020</li>
-              </ul>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
 
     </div>
 
