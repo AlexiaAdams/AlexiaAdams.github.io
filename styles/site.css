@@ -154,7 +154,7 @@ picture.self {
 }
 
 .self img {
-  width: 400px;
+  width: 300px;
   height: auto;
   border: 5px solid #0099ff;
   border-radius: 25px;
@@ -238,7 +238,7 @@ div.accord h4 {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-left: 75px;
+  /* margin-left: 75px; */
 }
 
 .accord div.minus {
@@ -496,7 +496,6 @@ hr.dashed {
   width: 50%
 }
 
-
 /* Wide Screen */
 @media (min-width: 1160px) {
 
@@ -553,6 +552,15 @@ hr.dashed {
     margin-bottom: 5%;
     margin-left: 10%;
     margin-right: 10%;
+  }
+
+  .self img {
+    width: 400px;
+    height: auto;
+    border: 5px solid #0099ff;
+    border-radius: 25px;
+    display: flex;
+    margin: auto;
   }
 
   /* Accordion */
