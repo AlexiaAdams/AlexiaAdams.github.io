@@ -246,7 +246,7 @@ div.accord h4 {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-left: 75px;
+  /* margin-left: 75px; */
 }
 
 div.accord div {
